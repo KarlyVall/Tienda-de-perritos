@@ -9,7 +9,7 @@
   /* Espaciado */
   --space: 10px;
   /* Box shadow */
-  --box: 0px 0 2px 1px #e6e5e9;
+  --box: 0px 0 2px 1px #9c9999;
 }
 
 /* -------------Variables */
@@ -90,4 +90,47 @@ nav li a:hover {
 
 .main_button:hover {
   background-color: #5e9e22;
+}
+/* Ventajas */
+.ventajas {
+  display: flex;
+  padding: 5% 10%;
+  justify-content: space-between;
+}
+.ventajitas {
+  padding: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+.ventajas img {
+  display: block;
+  margin: 0% auto;
+  width: 60%;
+}
+.ventajitas h3, .ventajitas p{
+  text-align: center;
+}
+
+/* Menciones recomendaciones */
+
+.menciones {
+  padding: 0% 10% 5%;
+  margin-left: 5%;
+}
+.menciones .items {
+  display: flex;
+}
+.card {
+  box-shadow: var(--box);
+  margin: 5px;
+}
+.card img {
+  width: 100%;
+}
+h4,
+h2,
+p {
+  text-align: center;
 }
