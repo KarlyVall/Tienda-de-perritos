@@ -1,0 +1,23 @@
+@media (max-width: 600px) {
+  .products,
+  .nav_options {
+    flex-direction: column;
+    height: auto;
+    max-height: none;
+  }
+  .product {
+    margin-top: auto;
+  }
+  .main_section {
+    padding: 4%;
+  }
+  .ventajas,
+  .items {
+    flex-direction: column;
+    height: auto;
+  }
+  .ventajitas,
+  .items {
+    margin-top: auto;
+  }
+}
