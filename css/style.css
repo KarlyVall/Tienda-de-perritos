@@ -168,3 +168,24 @@ footer a {
   text-decoration: none;
   font-size: 12px;
 }
+.col-4 img {
+  width: 30%;
+}
+.containerh1,
+.grid-itemh2 {
+  text-align: left;
+  width: 100%;
+}
+
+.grid-item {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-itemp {
+  padding: 0;
+  text-align: left;
+}
