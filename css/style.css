@@ -168,8 +168,9 @@ footer a {
   text-decoration: none;
   font-size: 12px;
 }
+/*section product.html */
 .col-4 img {
-  width: 30%;
+  width: 50%;
 }
 .containerh1,
 .grid-itemh2 {
