@@ -54,12 +54,12 @@ nav li {
 }
 
 nav li a {
-  color: var(--black-color);
+  color: var(--white-color);
   text-decoration: none;
 }
 
 nav li a:hover {
-  color: var(--white-color);
+  color: var(--black-color);
 }
 
 /* ------------------------ Main section */
@@ -67,6 +67,8 @@ nav li a:hover {
 .main_section {
   padding: 15%;
   text-align: center;
+  margin-bottom: -140px;
+  margin-top: -140px;
 }
 
 .products {
@@ -198,6 +200,8 @@ footer a {
   background-color: var(--white-color);
   box-shadow: var(--box);
   padding: var(--space);
+  margin-top: 50px;
+  margin-bottom: 70px;
 }
 .modulo_pago_images{
   max-width: 150px;
@@ -215,3 +219,4 @@ footer a {
 .modulo_pago .main_button{
   margin-top: 10px;
 }
+/*Footer*/
